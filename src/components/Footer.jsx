@@ -86,30 +86,34 @@ const Footer = () => {
           {/* Shopping Section */}
           <div>
             <h2 className="font-semibold text-lg text-gray-900 mb-3">
-              Shopping
+              Quick Links
             </h2>
             <ul className="space-y-2">
-              <li>Shipping</li>
-              <li>Shop by Brand</li>
-              <li>Track Order</li>
-              <li>Terms & Conditions</li>
-              <li>Size Guide</li>
-              <li>My Wishlist</li>
+              <a href="/">
+                <li>Home</li>
+              </a>
+              <a href="/about">
+                <li>About</li>
+              </a>
+              <a href="/contact">
+                <li>Contact</li>
+              </a>
+             
             </ul>
           </div>
 
           {/* Information Section */}
           <div>
             <h2 className="font-semibold text-lg text-gray-900 mb-3">
-              Information
+              Services
             </h2>
             <ul className="space-y-2">
-              <li>About Us</li>
-              <li>Terms & Policy</li>
-              <li>Help Center</li>
-              <li>News & Blog</li>
-              <li>Refunds</li>
-              <li>Careers</li>
+              <a href="/blogs">
+                <li>Blogs</li>
+              </a>
+              <a href="/blog/:id">
+                <li>Blogs Details</li>
+              </a>
             </ul>
           </div>
 
