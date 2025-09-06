@@ -111,7 +111,7 @@ const Footer = () => {
               <a href="/blogs">
                 <li>Blogs</li>
               </a>
-              <a href="/blog/:id">
+              <a href="/blog/1">
                 <li>Blogs Details</li>
               </a>
             </ul>
