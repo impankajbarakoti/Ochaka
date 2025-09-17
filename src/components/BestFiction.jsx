@@ -4,54 +4,56 @@ import React, { useState } from "react";
 const booksData = [
   {
     id: 1,
-    title: "The 5 Second Rule",
+    title: "IFB 60 kg Tumble Dryer with Auto Cool Down Function (Gas Heating)",
     author: "Mel Robbins",
     price: 14.0,
     originalPrice: 28.0,
-    image: "https://ochaka.vercel.app/images/products/book/product-7.jpg",
+    image:
+      "https://ifbdm.ifbappliances.com/adobe/assets/urn:aaid:aem:9476212b-46ff-456a-9d97-63c7da412494/as/8903287807527-.webp?quality=60",
     rating: 4,
     sale: "50%",
-    countdown: "00d : 06h : 47m : 54s",
   },
   {
     id: 2,
-    title: "The Let Them Theory",
+    title: "IFB 3 Burners Hybrid Hob with 3D Brass Burners",
     author: "Mel Robbins",
     price: 14.0,
     originalPrice: 19.99,
-    image: "https://ochaka.vercel.app/images/products/book/product-8.jpg",
+    image:
+      "https://ifbdm.ifbappliances.com/adobe/assets/urn:aaid:aem:54cd52f7-3b82-42a8-8ffa-5b97454415c8/as/8903287040399-.webp?quality=60",
     rating: 3,
-    countdown: "00d : 05h : 30m : 25s",
   },
   {
     id: 3,
-    title: "Do The Hard Things First",
+    title:
+      "Colour & Dirt Catcher (2 Pack) + 1 Fabo IFB 60 Sheets + 100 ml Fabric Care",
     author: "Mel Robbins",
     price: 27.0,
     originalPrice: 35.0,
-    image: "https://ochaka.vercel.app/images/products/book/product-9.jpg",
+    image:
+      "https://ifbdm.ifbappliances.com/adobe/assets/urn:aaid:aem:854e87e8-0861-4e92-8725-3302836a6bfc/as/HOLI23COMBO01-colour-dirt-catcher-fabo.webp?quality=60",
     rating: 4,
-    countdown: "00d : 05h : 47m : 54s",
   },
   {
     id: 4,
-    title: "Maui - The Courage Chihuahua",
+    title: "IFB Ocean Mist & Morning Dew Fabric Care",
     author: "Unknown",
     price: 28.5,
     originalPrice: 39.0,
-    image: "https://ochaka.vercel.app/images/products/book/product-10.jpg",
+    image:
+      "https://ifbdm.ifbappliances.com/adobe/assets/urn:aaid:aem:72525b3e-2495-424e-8485-e482f451906e/as/8903287081651-.webp?quality=60",
     rating: 5,
-    countdown: "00d : 03h : 50m : 22s",
   },
   {
     id: 5,
-    title: "Ghost Stories",
+    title: "Fluff Top Load + Fluff Fabric Conditioner",
     author: "Troy Besson",
     price: 10.4,
     originalPrice: 13.0,
-    image: "https://ochaka.vercel.app/images/products/book/product-5.jpg",
+    image:
+      "https://ifbdm.ifbappliances.com/adobe/assets/urn:aaid:aem:51da1d3a-f433-42fd-8f8b-76f7884f29f3/as/ID2022TLFABRC-.webp?quality=60",
     rating: 4,
-    countdown: "00d : 05h : 30m : 10s",
+    
   },
 
   // Add more books if needed
@@ -144,9 +146,7 @@ const BestFiction = () => {
 
               {/* Countdown Timer */}
               <div className="text-sm text-gray-500 mt-4">
-                <span className="text-red-600 font-semibold">
-                  Hurry up offer ends in:{" "}
-                </span>
+               
                 <span className="font-bold">{book.countdown}</span>
               </div>
             </div>

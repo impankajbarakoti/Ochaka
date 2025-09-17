@@ -6,9 +6,9 @@ import { HiCheckCircle } from "react-icons/hi";
 const reviews = [
   {
     id: 1,
-    title: "Maui - The Courage Chihuahua",
+    title: "Plant and Microwaves in Kitchen",
     price: "$14.99",
-    image: "https://ochaka.vercel.app/images/products/book/product-1.jpg",
+    image: "https://images.pexels.com/photos/7614540/pexels-photo-7614540.jpeg",
     review:
       "The support from ACIS has been outstanding. Anytime we had a question or needed help, their team responded quickly and professionally.",
     name: "Brooklyn Simmons",
@@ -16,9 +16,9 @@ const reviews = [
   },
   {
     id: 2,
-    title: "The Let Them Theory",
+    title: "A Man in Plaid Long Sleeves Pouring a Drink",
     price: "$39.99",
-    image: "https://ochaka.vercel.app/images/products/book/product-2.jpg",
+    image: "https://images.pexels.com/photos/8294755/pexels-photo-8294755.jpeg",
     review:
       "No surprises, just consistent and dependable performance every single time without fail.",
     name: "Mas Shin",
@@ -26,9 +26,9 @@ const reviews = [
   },
   {
     id: 3,
-    title: "Another Inspiring Book",
+    title: "A Woman Putting a Vacuum Robot on the Floor",
     price: "$24.99",
-    image: "https://ochaka.vercel.app/images/products/book/product-3.jpg",
+    image: "https://images.pexels.com/photos/7641262/pexels-photo-7641262.jpeg",
     review:
       "A really inspiring story that motivates me to take action every day.",
     name: "Alex Morgan",
@@ -36,9 +36,9 @@ const reviews = [
   },
   {
     id: 4,
-    title: "Bravery in Action",
+    title: "A Man Putting His Clothes in a Laundromat",
     price: "$19.99",
-    image: "https://ochaka.vercel.app/images/products/book/product-4.jpg",
+    image: "https://images.pexels.com/photos/8774363/pexels-photo-8774363.jpeg",
     review:
       "This book gave me new perspective on how to stay strong during tough times.",
     name: "Sophia Lee",
@@ -72,7 +72,7 @@ export default function CustomerReviews() {
               <img
                 src={item.image}
                 alt={item.title}
-                className="w-32 sm:w-36 md:w-40 lg:w-48 rounded-lg shadow-lg"
+                className="w-32 sm:w-36 md:w-40 lg:w-48 rounded-lg  shadow-lg"
               />
             </div>
 

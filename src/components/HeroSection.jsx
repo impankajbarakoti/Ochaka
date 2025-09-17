@@ -6,7 +6,7 @@ const HeroSection = () => {
       {/* Left Div - Book Image */}
       <div className="bg-[#f9f9f7] rounded-2xl flex justify-center items-center p-6 sm:p-8 md:p-10 lg:p-12 h-full">
         <img
-          src="https://ochaka.vercel.app/images/slider/slider-34.jpg"
+          src="https://s7ap1.scene7.com/is/image/ifb/plp-lifestyle-banner22:yellowBanner-SmallDesktop?fmt=webp"
           alt="Book Cover"
           className="rounded-xl shadow-lg w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl object-contain"
         />
@@ -15,13 +15,15 @@ const HeroSection = () => {
       {/* Right Div - Text Content */}
       <div className="bg-[#f8f2ed] w-full h-full rounded-xl flex flex-col justify-center items-center text-center md:text-left p-6 sm:p-8 md:p-10 lg:p-12 space-y-5 sm:space-y-6 md:space-y-8">
         <p className="text-base sm:text-lg md:text-xl text-gray-700">
-          New From The Author
+          IFB Double Door Refrigerator
         </p>
         <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-snug text-center">
-          National Security
+          Get started. We’ve made it easy.
         </h1>
         <p className="text-base sm:text-lg md:text-xl text-gray-600 max-w-lg sm:max-w-xl md:max-w-2xl text-center">
-          Limited Edition Complete Journeys of the Strongest Family in History
+          Bring home our extraordinary range of Frost Free Double Door
+          Refrigerators with 10-in-1 Convertible Modes, Smart Sense powered by
+          AI, Surround Cool, and Nudge Tag.
         </p>
 
         {/* Button */}

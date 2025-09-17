@@ -2,8 +2,8 @@ import React from "react";
 
 const cards = [
   {
-    img: "https://ochaka.vercel.app/images/section/box-image-16.jpg",
-    title: "Book Your Summer",
+    img: "https://s7ap1.scene7.com/is/image/ifb/plp-master-banner-double-door-1:Tab",
+    title: "Advanced cooling Optimal preservation.",
     subtitle: "Get a voucher for any order over $150",
     btn: "DISCOVER MORE",
     bg: "bg-blue-100",
@@ -11,8 +11,8 @@ const cards = [
     btnUrl: "#",
   },
   {
-    img: "https://ochaka.vercel.app/images/section/box-image-17.jpg",
-    title: "Good books every day",
+    img: "https://s7ap1.scene7.com/is/image/ifb/op-navigation-menu-dropdown-banner-3",
+    title: "Book For Summer",
     subtitle: "SALE upto 50%",
     btn: "SHOP NOW",
     bg: "bg-neutral-100",
@@ -21,8 +21,8 @@ const cards = [
     sale: true,
   },
   {
-    img: "https://ochaka.vercel.app/images/section/box-image-18.jpg",
-    title: "By readers",
+    img: "https://s7ap1.scene7.com/is/image/ifb/plp-offer-banner-double-door-2:Tab",
+    title: "Value Upgrades",
     subtitle: "The best and most meaningful books recommended by readers",
     btn: "GET A VOUCHER",
     bg: "bg-green-200",

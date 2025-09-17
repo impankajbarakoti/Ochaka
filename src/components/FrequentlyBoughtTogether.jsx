@@ -2,9 +2,10 @@
 import React from "react";
 
 const leftCard = {
-  bgImage: "https://ochaka.vercel.app/images/banner/banner-3.jpg",
+  bgImage:
+    "https://s7ap1.scene7.com/is/image/ifb/about-ifb-content2-image7?ts=1751834255754&dpr=off",
   saleText: "SALE OFF 50% on 1 when you buy 2",
-  title: "I Love You to the Moon and Back",
+  title: "For everyday comfort and convenience.",
   description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
   btnText: "Shop now",
   btnUrl: "#",
@@ -12,15 +13,15 @@ const leftCard = {
 
 const rightItems = [
   {
-    img: "https://ochaka.vercel.app/images/products/book/orther/book-1.png",
-    name: "Inspiring Stories for Amazing Boys",
+    img: "https://s7ap1.scene7.com/is/image/ifb/about-ifb-content2-image3?ts=1751834101149&dpr=off",
+    name: "Built to excel. Ready to perform.  ",
     price: "$69,99",
     stock: "In Stock",
     btnText: "Add to cart",
   },
   {
-    img: "https://ochaka.vercel.app/images/products/book/orther/book-2.png",
-    name: "Dry food, For adult dogs from 1-6 years old",
+    img: "https://s7ap1.scene7.com/is/image/ifb/about-ifb-content2-image9?ts=1751834251670&dpr=off",
+    name: "Automation at scale . Inclusion at heart. ",
     price: "$89,99",
     stock: "In Stock",
     btnText: "Add to cart",

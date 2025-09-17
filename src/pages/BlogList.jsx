@@ -9,7 +9,8 @@ const BlogList = () => {
       excerpt:
         "Web development is evolving at a rapid pace. From front-end to back-end, here’s what the future holds...",
       date: "April 1, 2025",
-      image: "https://ochaka.vercel.app/images/products/book/product-13.jpg", // Image URL
+      image:
+        "https://www.ifbappliances.com/content/dam/ifbindustrieslimitedprogram/blogs/how-to-use-a-dishwasher-for-best-washing-of-utensils/417x250_29.png", // Image URL
     },
     {
       id: 2,
@@ -17,7 +18,8 @@ const BlogList = () => {
       excerpt:
         "React is a popular JavaScript library used for building user interfaces. Let’s dive deep into how it works...",
       date: "March 22, 2025",
-      image: "https://ochaka.vercel.app/images/products/book/product-14.jpg", // Image URL
+      image:
+        "https://www.ifbappliances.com/content/dam/ifbindustrieslimitedprogram/blogs/10-reasons-to-buy-a-washer-dryer-refresher-this-season/1.png", // Image URL
     },
     {
       id: 3,
@@ -25,7 +27,8 @@ const BlogList = () => {
       excerpt:
         "JavaScript frameworks are essential for building scalable applications. Here are the top 10 frameworks you should know about...",
       date: "March 15, 2025",
-      image: "https://ochaka.vercel.app/images/products/book/product-15.jpg", // Image URL
+      image:
+        "https://www.ifbappliances.com/content/dam/ifbindustrieslimitedprogram/blogs/a-place-for-everything-and-everything-in-its-place/kitchen_1.png", // Image URL
     },
     {
       id: 4,
@@ -33,7 +36,8 @@ const BlogList = () => {
       excerpt:
         "Making websites accessible is more important than ever. Learn about web accessibility and how to implement best practices.",
       date: "March 12, 2025",
-      image: "https://ochaka.vercel.app/images/products/book/product-16.jpg", // Image URL
+      image:
+        "https://www.ifbappliances.com/content/dam/ifbindustrieslimitedprogram/blogs/frequently-asked-questions-about-dishwashers/417x250_30.png", // Image URL
     },
     {
       id: 5,
@@ -41,7 +45,8 @@ const BlogList = () => {
       excerpt:
         "Learn the differences between CSS Grid and Flexbox, and how to use both to create complex layouts with ease.",
       date: "March 10, 2025",
-      image: "https://ochaka.vercel.app/images/products/book/product-17.jpg", // Image URL
+      image:
+        "https://www.ifbappliances.com/content/dam/ifbindustrieslimitedprogram/blogs/how-to-avoid-and-remove-odour-in-clothes/417x250_4.png", // Image URL
     },
     {
       id: 6,
@@ -49,7 +54,8 @@ const BlogList = () => {
       excerpt:
         "JavaScript has evolved significantly over the years. Explore the key changes and improvements made to the language.",
       date: "March 8, 2025",
-      image: "https://ochaka.vercel.app/images/products/book/product-18.jpg", // Image URL
+      image:
+        "https://images.pexels.com/photos/33934104/pexels-photo-33934104.jpeg", // Image URL
     },
     {
       id: 7,
@@ -57,7 +63,8 @@ const BlogList = () => {
       excerpt:
         "Node.js has become a powerful tool for backend development. Understand how Node.js is changing server-side development.",
       date: "March 5, 2025",
-      image: "https://ochaka.vercel.app/images/products/book/product-10.jpg", // Image URL
+      image:
+        "https://images.pexels.com/photos/28479466/pexels-photo-28479466.jpeg", // Image URL
     },
   ];
 

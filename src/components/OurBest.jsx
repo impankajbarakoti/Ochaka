@@ -4,54 +4,59 @@ import React, { useState } from "react";
 const booksData = [
   {
     id: 1,
-    title: "The 5 Second Rule",
+    title: "IFB 60 cm Wall Mounting Chimney with 10 Speed Motor",
     author: "Mel Robbins",
     price: 14.0,
     originalPrice: 28.0,
-    image: "https://ochaka.vercel.app/images/products/book/product-13.jpg",
+    image:
+      "https://ifbdm.ifbappliances.com/adobe/assets/urn:aaid:aem:b312e672-58ce-478e-9a57-fbfc50bb999e/as/8903287040337-.webp?quality=60",
     rating: 4,
     sale: "50%",
-    countdown: "00d : 06h : 47m : 54s",
+    
   },
   {
     id: 2,
-    title: "The Let Them Theory",
+    title: "IFB 130 - 305 Volts Washing Machine Stabilizer",
     author: "Mel Robbins",
     price: 14.0,
     originalPrice: 19.99,
-    image: "https://ochaka.vercel.app/images/products/book/product-14.jpg",
+    image:
+      "https://ifbdm.ifbappliances.com/adobe/assets/urn:aaid:aem:d1772a20-ac7e-495e-b823-f8241f09ed63/as/8903287080869-.webp?quality=60",
     rating: 3,
-    countdown: "00d : 05h : 30m : 25s",
+   
   },
   {
     id: 3,
-    title: "Do The Hard Things First",
+    title: "58 L Built-in Oven with Top and Bottom Heaters",
     author: "Mel Robbins",
     price: 27.0,
     originalPrice: 35.0,
-    image: "https://ochaka.vercel.app/images/products/book/product-15.jpg",
+    image:
+      "https://ifbdm.ifbappliances.com/adobe/assets/urn:aaid:aem:2c2655e4-f254-4637-8a17-e9a3cd34cb8a/as/8903287003073-656-mtc-e-rct.webp?quality=60",
     rating: 4,
-    countdown: "00d : 05h : 47m : 54s",
+    
   },
   {
     id: 4,
-    title: "Maui - The Courage Chihuahua",
+    title: "IFB 60 kg Tumble Dryer with Auto Cool Down Function (Gas Heating)",
     author: "Unknown",
     price: 28.5,
     originalPrice: 39.0,
-    image: "https://ochaka.vercel.app/images/products/book/product-16.jpg",
+    image:
+      "https://ifbdm.ifbappliances.com/adobe/assets/urn:aaid:aem:9476212b-46ff-456a-9d97-63c7da412494/as/8903287807527-.webp?quality=60",
     rating: 5,
-    countdown: "00d : 03h : 50m : 22s",
+   
   },
   {
     id: 5,
-    title: "Ghost Stories",
+    title: "IFB 3 Burners Hybrid Hob with 3D Brass Burners",
     author: "Troy Besson",
     price: 10.4,
     originalPrice: 13.0,
-    image: "https://ochaka.vercel.app/images/products/book/product-17.jpg",
+    image:
+      "https://ifbdm.ifbappliances.com/adobe/assets/urn:aaid:aem:54cd52f7-3b82-42a8-8ffa-5b97454415c8/as/8903287040399-.webp?quality=60",
     rating: 4,
-    countdown: "00d : 05h : 30m : 10s",
+   
   },
 
   // Add more books if needed
@@ -146,9 +151,7 @@ const OurBest = () => {
 
               {/* Countdown Timer */}
               <div className="text-sm text-gray-500 mt-4">
-                <span className="text-red-600 font-semibold">
-                  Hurry up offer ends in:{" "}
-                </span>
+               
                 <span className="font-bold">{book.countdown}</span>
               </div>
             </div>
